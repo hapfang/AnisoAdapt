@@ -2,12 +2,12 @@ SUBSYSNAME := phasta
 MODULENAME := SimpleAdapt
 ISEXECUTABLE := 1
 OUTNAME := SimpleAdapt
-DEVROOT := /projects/tools/Simmetrix.develop
+#DEVROOT := /projects/tools/Simmetrix.develop
 
 #Specify compilers 
-CC := mpicc
-CXX := mpicxx
-FC := gfortran
+#CC := mpicc
+#CXX := mpicxx
+#FC := gfortran
 
 SIM := 1
 DEFS := $(DEFS) -DSIM
@@ -15,8 +15,8 @@ DEFS := $(DEFS) -DSIM
 MODELER := parasolid
 NODEP := 1
 NOSHARED := 1
-MESHSIM := /projects/tools/SimmetrixTest/12.0-171109dev
-PARALLEL := openmpi
+#MESHSIM := /projects/tools/SimmetrixTest/12.0-171109dev
+#PARALLEL := openmpi
 
 ARCHOS := x86_64_linux
 ifeq ($(ARCHOS),x86_64_linux)
